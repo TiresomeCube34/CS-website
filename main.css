@@ -1,23 +1,71 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px 0px 8px 0px;
+    background-color: #ffdcba;
+}
+
+.navBar{
+    display: flex;
+    background-color: #eabc90;
+    border-bottom: 5px #c79361 solid;
+}
+.navBar > div{
+    padding: 8px;
+    
+    font-size: 20pt;
+    background-color: #eabc90;
+    border-right-style: solid;
+    border-color: #c79361;
+    border-right-width: 5px;
+}
+.navBar > div.selected{
+    /* negtive magin go BRRRRRR */
+    margin-bottom: -5px;
+    background-color: #ffdcba;
+    border-bottom-style: none;    
+}
 h1{
-    font-family: cursive, monospace;
-    size: 50px;
-    /*defualt size is 32*/
-
+    margin-bottom: 20px;
+    font-size: 50pt;
+}
+.border > h1{
+    margin: 15px 15px 20px 15px;
+    font-size: 50pt;
 }
 
-/*this is an element with a class? */
-.invertColors{
-    background-color: black;
-    color:beige;
+.indexBody{
+    align-items: center;
+    margin: 10px 15px;
+    display: flex;
+    flex-direction: column;
 }
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-  }
+.name{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    /* font-size: 15pt; */
+    margin-bottom: 2px;
+}
 
+.card{
+    margin: 10px 20px ;
+    padding: 5px 10px;
+    background-color: #ffdcba;
+    border-radius: 7px;
+}
+
+.border{
+    background-color: #eabc90;
+    margin: 37px 12px;
+    border-radius: 10px;
+}
+
+.cardWrap{
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-basis: auto; */
+    font-size: 18pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
