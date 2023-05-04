@@ -56,7 +56,7 @@ h1{
 
 .border{
     background-color: #eabc90;
-    margin: 37px 12px;
+    margin: 37px 65px;
     border-radius: 10px;
 }
 
@@ -67,5 +67,10 @@ h1{
     font-size: 18pt;
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
 
+.text{
+    margin-top: 8px;
+    font-size: 16pt;
+    line-height: 1.5;
 }
